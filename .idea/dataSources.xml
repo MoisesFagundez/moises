@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3890899091">
+    <data-source source="LOCAL" name="Rails gamyauth: development" uuid="812b68de-84bf-472c-9d2e-4d1d97cf4a0d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/gamyauth_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails gamyauth: test" uuid="47c575db-dcd6-41c6-ba56-459f6f88bc3f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/gamyauth_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails gamyauth: production" uuid="65290fcc-d3c7-49ce-90c6-2ec050e2bf02">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/gamyauth_production</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

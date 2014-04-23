@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails gamyauth: development" uuid="812b68de-84bf-472c-9d2e-4d1d97cf4a0d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails gamyauth: test" uuid="47c575db-dcd6-41c6-ba56-459f6f88bc3f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails gamyauth: production" uuid="65290fcc-d3c7-49ce-90c6-2ec050e2bf02">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
