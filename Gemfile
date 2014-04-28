@@ -61,3 +61,4 @@ gem 'jquery-rails'
 
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
