@@ -246,4 +246,8 @@ Devise.setup do |config|
   require 'omniauth-facebook'
   config.omniauth :facebook, "549783668443500", "efd0a59a04bee73e895215136e90abd0"
   #:strategy_class => OmniAuth::Strategies::Facebook, {:scope => 'email, offline_access', :client_options => {:ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}}}
+
+  require 'omniauth-google-oauth2'
+  config.omniauth :google_oauth2, "816537265390-difqqdlcf1v7rrf0r5b23g6fki635vm6.apps.googleusercontent.com", "VCO1sBTYpTQK-GAyG2elMGMz", { access_type: "offline", approval_prompt: "" }
+
 end
