@@ -250,4 +250,7 @@ Devise.setup do |config|
   require 'omniauth-google-oauth2'
   config.omniauth :google_oauth2, "816537265390-difqqdlcf1v7rrf0r5b23g6fki635vm6.apps.googleusercontent.com", "VCO1sBTYpTQK-GAyG2elMGMz", { access_type: "offline", approval_prompt: "" }
 
+  require 'omniauth-linkedin'
+  config.omniauth :linkedin, "75xu9vq5i5ptc7", "umAkwMFgG3n0PYcS"
+
 end
