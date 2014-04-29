@@ -27,8 +27,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: gamyauth_production
+  database: dfhn57odmctc2b
   pool: 5
-  username: postgres
-  host: localhost
-  password: 
+  username: ubh3cs36pmd8qp
+  host: ec2-54-247-105-39.eu-west-1.compute.amazonaws.com
+  password: peec44j6hrtfrv9mtnrt06lg2ug
