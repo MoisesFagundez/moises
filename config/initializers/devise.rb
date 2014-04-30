@@ -256,4 +256,7 @@ Devise.setup do |config|
   require 'omniauth-twitter'
   config.omniauth :twitter, "zRSGCCY3rQ4udONiTZf9AwJr4", "tufxSwIo7hPM4AgcQr2fGPx5c9NNNTAP5u2O80uT17snzNTVHi"
 
+  require 'omniauth-github'
+  config.omniauth :github, "4462bb0acd6bf4965335", "c513825901b514ce5736fd06e62060178099412e"
+
 end
