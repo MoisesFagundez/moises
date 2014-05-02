@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
 
   devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable, :validatable, :omniauthable, :omniauth_providers => [:facebook, :google_oauth2, :linkedin, :twitter, :github]
-  attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :provider, :uid, :social_data, :name
+  attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :provider, :uid, :social_data, :name, :role_id
 
 
   def self.find_for_facebook_oauth(auth)
